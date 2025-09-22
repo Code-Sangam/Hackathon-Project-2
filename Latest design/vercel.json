@@ -3,6 +3,7 @@
   "framework": "nextjs",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "installCommand": "npm install --legacy-peer-deps",
-  "outputDirectory": ".next"
+  "installCommand": "npm ci --legacy-peer-deps",
+  "outputDirectory": ".next",
+  "cleanUrls": true
 }

@@ -3,7 +3,8 @@
   "framework": "nextjs",
   "buildCommand": "cd 'Latest design' && npm run build",
   "devCommand": "cd 'Latest design' && npm run dev",
-  "installCommand": "cd 'Latest design' && npm install --legacy-peer-deps",
+  "installCommand": "cd 'Latest design' && npm ci --legacy-peer-deps",
   "outputDirectory": "Latest design/.next",
-  "rootDirectory": "Latest design"
+  "rootDirectory": "Latest design",
+  "cleanUrls": true
 }
