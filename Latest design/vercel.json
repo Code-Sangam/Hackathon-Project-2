@@ -1,9 +1,3 @@
 {
-  "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm ci --legacy-peer-deps",
-  "outputDirectory": ".next",
-  "cleanUrls": true
+  "framework": "nextjs"
 }
